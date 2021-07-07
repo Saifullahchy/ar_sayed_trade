@@ -10,6 +10,7 @@ import {HeroContainer,
      ArrowForward,
      ArrowRight} from './HeroElements';
 import {Button} from '../ButtonElements';
+import { Link } from 'react-router-dom';
 
 
 const HeroSection = () => {
@@ -20,7 +21,7 @@ const HeroSection = () => {
     }
 
     return (
-        <HeroContainer>
+        <HeroContainer >
 
             <HeroBg>
                 <VideoBg autoPlay loop muted src= {Video} type="video/mp4"/>
@@ -33,7 +34,7 @@ const HeroSection = () => {
                 We Import and export frozen, fresh and dry seafood to Bangladesh Yemen, Paraguay and distributing within Bangladesh.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="signup" onMouseEnter={onHover} 
+                    <Button Link to="about" onMouseEnter={onHover} 
                     onMouseLeave = {onHover}
                     primary = 'true'
                     dark = 'true'>

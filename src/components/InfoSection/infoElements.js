@@ -12,9 +12,9 @@ export const InfoConatiner = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
+    height: 1200px;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
@@ -79,7 +79,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : " #000")};
+    color: ${({darkText}) => (darkText ? '#28ABB9' : " #fff")};
 `
 export const BtnWrap = styled.div `
     display: flex;

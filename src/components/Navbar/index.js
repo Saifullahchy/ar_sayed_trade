@@ -23,17 +23,19 @@ const Navbar = ({toggle}) => {
                         <HiMenuAlt1/>
                     </MobileIcon>
                     <NavMenu>
-                        <NavItem>
-                            <NavLinks to="Home">Home</NavLinks>
-                        </NavItem>
+                        
                         <NavItem>
                             <NavLinks to="about">About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="Services">Services</NavLinks>
+                            <NavLinks to="discover">Discover</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="Products">Products</NavLinks>
+                            <NavLinks to="services">Services</NavLinks>
+                        </NavItem>
+                        
+                        <NavItem>
+                            <NavLinks to="product">Products</NavLinks>
                         </NavItem>
                         
                     </NavMenu>
