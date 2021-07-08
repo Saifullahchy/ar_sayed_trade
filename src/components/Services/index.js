@@ -30,7 +30,7 @@ const Services = () => {
                     <ServicesCard>
                         <ServicesIcon src= {Icon3}/>
                         <ServicesH2>TRUST</ServicesH2>
-                        <ServicesP>You can trust us to deliver you the best; finest and freshest quality of seafood from India without compromise. We give you the best packaging – all food grade compliant.
+                        <ServicesP>You can trust us to deliver you the best; finest and freshest quality of seafood. We give you the best packaging – all food grade compliant.
                         </ServicesP>
                     </ServicesCard>
                 </ServicesWrapper>

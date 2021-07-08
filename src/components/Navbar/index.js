@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState , useEffect} from 'react'
 import {HiMenuAlt1} from 'react-icons/hi'
 import { Nav, 
     NavbarContainer, 
@@ -12,9 +12,22 @@ import { Nav,
  } from './NavbarElement';
 import logo from '../../images/logo.png'
 const Navbar = ({toggle}) => {
+   const [scrollNav, setScrollNav] = useState(false)
+   
+   const changeNav = () =>{
+       if(window.screenY >= 80){
+           setScrollNav(true)
+       }else{
+           setScrollNav(false)
+       }
+   }
+   useEffect(() => {
+       window.addEventListener('scroll',changeNav)
+   }, [])
+
     return (
         <>
-            <Nav>
+            <Nav scrollNav ={scrollNav} >
                 <NavbarContainer>
                     <NavLogo to= "/">
                         <img src = {logo} height = "30px" alt="AR. Sayed Trader Internationl"/>
@@ -40,7 +53,7 @@ const Navbar = ({toggle}) => {
                         
                     </NavMenu>
                     <NavBtn>
-                      <NavBtnLink to="Contact us">Contact us</NavBtnLink>
+                      <NavBtnLink to="contactus">Contact us</NavBtnLink>
                     </NavBtn>            
                 </NavbarContainer>
             </Nav>
