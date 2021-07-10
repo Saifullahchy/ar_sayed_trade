@@ -1,9 +1,14 @@
 import React from 'react'
+import ContactForm from '../components/ContactForm'
+import ScrollToTop from '../components/ScrollToTop'
+
 
 const ContactusPage = () => {
     return (
         <div>
-            <h1>hell0</h1>
+            <ScrollToTop/>
+            <ContactForm/>
+         
         </div>
     )
 }

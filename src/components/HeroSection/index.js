@@ -10,7 +10,7 @@ import {HeroContainer,
      ArrowForward,
      ArrowRight} from './HeroElements';
 import {Button} from '../ButtonElements';
-import { Link } from 'react-router-dom';
+
 
 
 const HeroSection = () => {
@@ -21,10 +21,10 @@ const HeroSection = () => {
     }
 
     return (
-        <HeroContainer >
+        <HeroContainer id='home'>
 
             <HeroBg>
-                <VideoBg autoPlay loop muted src= {Video} type="video/mp4"/>
+                <VideoBg autoPlay loop muted src= {Video} type="video/mp4" playsInline/>
             </HeroBg>
             <HeroContent>
                 <HeroH1>WELCOME TO</HeroH1>

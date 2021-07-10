@@ -1,4 +1,5 @@
 import React from 'react'
+import {animateScroll as scroll} from 'react-scroll';
 import logo from '../../images/logo.png'
 // import {DialPad} from 'frh-react-dial-pad'
 import {FaFacebook, FaInstagram ,FaYoutube , FaTwitter, FaLinkedin} from 'react-icons/fa'
@@ -18,10 +19,11 @@ import { FooterContainer,
         
        } from './FooterElemets'   
 
-// const getCurrentYear = () =>{
-//     return new Date().getCurrentYear();
-// };
+
 const Footer = () => {
+    const toggleHome = () =>{
+        scroll.scrollToTop();
+    };
     return (
         <FooterContainer>
             <FooterWrap>
@@ -62,10 +64,9 @@ Fishery Ghat, Iqbal Road, Patherghata Chittagong </FooterLink>
                 </FooterLinksConatiner>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/about' > 
-                            <img src ={logo} height="40px" width="150px"/>
-                        </SocialLogo>
-                        <WebsiteRights> A.R Sayed Trade International © {new Date().getUTCFullYear()} All rights Reserved. </WebsiteRights>
+                        <SocialLogo  onClick={toggleHome}> 
+                            <img src ={logo} height="40px" width="150px" alt= "Logo"/></SocialLogo>
+                        <WebsiteRights> A.R Sayed Trade Internationl © {new Date().getUTCFullYear()} All rights Reserved. </WebsiteRights>
                         <SocialIcon>
                             <SocialIconLink href="/" target = "_balnk" aria-label="Facebook">
                                 <FaFacebook />

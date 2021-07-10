@@ -78,7 +78,7 @@ export const NavLinks = styled(LinkS)`
     font-weight: bold;
 
     &.active{
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 4px solid #FACE00;
     }
 `
 export const NavBtn = styled.nav`

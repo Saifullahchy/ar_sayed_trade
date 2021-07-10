@@ -7,6 +7,7 @@ import InfoSection from '../components/InfoSection'
 import { homeObjOne , homeObjTwo } from '../components/InfoSection/Data'
 import Services from '../components/Services'
 import Footer from '../components/Footer'
+import ProductCard from '../components/ProductCard'
 
 const Home = () => {
     const [isOpen,setIsOpen] = useState(false);
@@ -23,9 +24,14 @@ const Home = () => {
             <InfoSection  {...homeObjOne}/>
             <InfoSection  {...homeObjTwo}/>
             <Services/>
+            <ProductCard/>
             <Footer/>
+
+            
         </>
+        
     )
+    console.log(ProductCard)
 }
 
 export default Home
