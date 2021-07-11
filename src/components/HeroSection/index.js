@@ -37,7 +37,13 @@ const HeroSection = () => {
                     <Button Link to="about" onMouseEnter={onHover} 
                     onMouseLeave = {onHover}
                     primary = 'true'
-                    dark = 'true'>
+                    dark = 'true'
+                    smooth ={true} 
+                                duration={500} 
+                                spy={true} 
+                                exact='true' 
+                                offset={-80}
+                                activeClass="active">
                         Get Started {hover ? <ArrowForward/> :<ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>

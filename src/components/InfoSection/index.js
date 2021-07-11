@@ -26,7 +26,7 @@ const InfoSection = ({lightBg,
     alt,
     primary,
     dark,
-    dark2 }) => {
+    dark2, btn }) => {
     return (
         <>
             <InfoConatiner lightBg={lightBg} id={id}>
@@ -38,7 +38,7 @@ const InfoSection = ({lightBg,
                             <Heading lightText= {lightText}>{headline}</Heading>
                             <Subtitle darkText = {darkText} >{description}</Subtitle>
                             <BtnWrap>
-                                <Button to='home'
+                                <Button to= {btn}
                                     smooth = {true}
                                     duration = {500}
                                     spy ={true}

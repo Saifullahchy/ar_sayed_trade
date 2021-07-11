@@ -19,9 +19,18 @@ import img18 from "../../images/NAISER.jpg"
 import img19 from "../../images/octopus.jpg"
 import img20 from "../../images/queenfish.jpg"
 import img21 from "../../images/REDSNAPPER.jpg"
-import img22 from "../../images/kingfish.jpg"
-import img23 from "../../images/kingfish.jpg"
-import img24 from "../../images/kingfish.jpg"
+import img22 from "../../images/robbonfish.jpg"
+import img23 from "../../images/ROHU.png"
+import img24 from "../../images/SARDINE.jpg"
+import img25 from "../../images/SCAD.jpg"
+import img26 from "../../images/SHADFISH.jpeg"
+import img27 from "../../images/silvercroaker.jpg"
+import img28 from "../../images/solefish.jpg"
+import img29 from "../../images/squid.png"
+import img30 from "../../images/STRINGRAY.jpg"
+import img31 from "../../images/tuna.jpg"
+import img32 from "../../images/yellowcroaker.jpg"
+
 
 const product_card = [
     {
@@ -99,7 +108,7 @@ const product_card = [
     {
         id : 13,
         product_name : "dotted gizzard shad",
-        description : "The Indian mackerel (Rastrelliger kanagurta) is a species of mackerel in the scombrid family (family Scombridae) of order Perciformes.[2] It is commonly found in the Indian and West Pacific oceans, and their surrounding seas",
+        description : "The Indian mackerel is a species of mackerel in the scombrid family of order Perciformes. It is commonly found in the Indian and West Pacific oceans, and their surrounding seas",
         thumb: img13
     },
     {
@@ -151,16 +160,70 @@ const product_card = [
         thumb: img21
     },
     {
-        id : 6,
-        product_name : "dotted gizzard shad",
-        description : " Its common names include dotted gizzard shad, konoshiro gizzard shad, and spotted sardine.[1] It is native to the northwestern Pacific Ocean, where it occurs along the Asian coastline",
-        thumb: img6
+        id : 22,
+        product_name : "robbon fish",
+        description : "Ribbon Fish any of the members of the bony fish family Trichuridae, order Perciformes; represented in the bay of bengal.",
+        thumb: img22
     },
     {
-        id : 6,
-        product_name : "dotted gizzard shad",
-        description : " Its common names include dotted gizzard shad, konoshiro gizzard shad, and spotted sardine.[1] It is native to the northwestern Pacific Ocean, where it occurs along the Asian coastline",
-        thumb: img6
+        id : 23,
+        product_name : "rohu",
+        description : "The rohu, rui, or roho labeo (Labeo rohita) is a species of fish of the carp family, found in rivers in South Asia. ",
+        thumb: img23
+    },
+    {
+        id : 24,
+        product_name : "SARDINE",
+        description : "Sardines are small epipelagic fish that sometimes migrate along the coast in large schools.",
+        thumb: img24
+    },
+    {
+        id : 25,
+        product_name : "scad",
+        description : "Scad, any of several species of fishes in the family Carangidae (order Perciformes), which also includes the jacks, amberjacks, and pompanos.",
+        thumb: img25
+    },
+    {
+        id : 26,
+        product_name : "shad fish",
+        description : "Shad, any of several saltwater food fishes of the herring family (Clupeidae) that swim up rivers to spawn.",
+        thumb: img26
+    },
+    {
+        id : 27,
+        product_name : "silver croaker",
+        description : "More on Croakers and Drums. This is a very good eating fish. The flesh is off white with a good medium flavor.",
+        thumb: img27
+    },
+    {
+        id : 28,
+        product_name : "sole fish",
+        description : "Sole fish also known as protonibea diacanthus is flat fish that truly relishes your taste buds.",
+        thumb: img28
+    },
+    {
+        id : 29,
+        product_name : "squid fish",
+        description : "Squid is a good source of vitamin B12 and B6 which the body needs for neural health and blood health and vitamin B6 for heart protection from strokes.",
+        thumb: img29
+    },
+    {
+        id : 30,
+        product_name : "stingray ",
+        description : "Eat stingray and it is safe to consume. Caught using fishing lines or spears, they're an interesting type of seafood you can eat.",
+        thumb: img30
+    },
+    {
+        id : 31,
+        product_name : "tuna",
+        description : "The high levels of omega-3 fatty acids in tuna fish may help to reduce the level of omega-6 fatty acids and LDL cholesterol that can accumulate inside the arteries of the heart.",
+        thumb: img31
+    },
+    {
+        id : 32,
+        product_name : "yellow croaker",
+        description : " Yellowfin croakers are safe to eat. May anglers say they are tastier than white seabass and they contain less mercury.",
+        thumb: img32
     },
 ]
 

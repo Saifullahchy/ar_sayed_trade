@@ -15,7 +15,8 @@ export const homeObjOne = {
     alt: 'ship',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    btn : "discover"
 
 };
 export const homeObjTwo = {
@@ -32,6 +33,7 @@ export const homeObjTwo = {
     alt: 'ship',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    btn: "services"
 
 };
