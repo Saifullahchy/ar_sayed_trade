@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const ContainerMain = styled.div `
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     background:#27A4B2 ;
 
@@ -18,10 +18,11 @@ export const ContainerMain = styled.div `
 export const Container = styled.div`
 
     display: flex;
+    justify-content:start;
     position: relative;
     width: 70%;
     height: 100%;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 50px 0 0 ;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -29,19 +30,17 @@ export const Container = styled.div`
 
 `
 export const ProductCard = styled.div` 
-   padding: 10px auto;
+   padding: 20px auto;
    display: flex;
    background:#FFf ;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
    width: 280px;
    height: 400px;
-   margin: 0 auto;
+   margin: auto;
    margin-bottom: 20px;
-   border-radius: 5px;
+   border-radius: 10px;
    cursor: pointer;
-   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+   box-shadow: 5px 10px 5px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
 
     &:hover{
@@ -58,10 +57,7 @@ export const ProductCard = styled.div`
 
 `
 export const CardImage = styled.img`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    height: 260px;
     width: 100%;
     margin-bottom: 10px;
 `
