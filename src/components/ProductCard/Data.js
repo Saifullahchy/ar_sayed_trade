@@ -53,7 +53,7 @@ const product_card = [
     },
     {
         id : 4,
-        product_name : "Chinese and black pomfret",
+        product_name : "black pomfret",
         description : "The black pomfret (Parastromateus niger) is a species of carangid native to reefs of the Indian,the Philippines, China, southern Japan and Australia.",
         thumb: img4
     },

@@ -85,10 +85,6 @@ export const ProductHeading = styled.h1`
 export const ProductH1 = styled.h2`
     font-size: 1rem;
     margin-bottom: 10px;
-    @media screen and (max-width: 480px){
-        font-size: 2rem;
-        text-align:center;
-    }
     text-transform: uppercase;
 `
 export const ProductP = styled.p`
@@ -97,4 +93,5 @@ export const ProductP = styled.p`
     text-align: center;
     margin-bottom: 24px;
     padding: 5px;
+
 `
