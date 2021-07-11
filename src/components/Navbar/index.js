@@ -9,7 +9,8 @@ import { Nav,
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink
+    NavBtnLink,
+    NavLinkR
  } from './NavbarElement';
 import logo from '../../images/logo.png'
 const Navbar = ({toggle}) => {
@@ -73,12 +74,8 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                         
                         <NavItem>
-                            <NavLinks to="product"
-                            smooth ={true} 
-                            duration={500} 
-                            spy={true} 
-                            exact='true' 
-                            offset={-80} activeClass="active">Products</NavLinks>
+                            <NavLinkR to="products"
+                           >Products</NavLinkR>
                         </NavItem>
                         
                     </NavMenu>
@@ -89,6 +86,8 @@ const Navbar = ({toggle}) => {
             </Nav>
         </>
     );
+
+    console.log(NavLinks)
 };
 
 export default Navbar;
