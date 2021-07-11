@@ -95,6 +95,6 @@ export const ProductP = styled.p`
 
     font-size:1rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     padding: 5px;
 `
