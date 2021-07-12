@@ -46,7 +46,7 @@ const Footer = () => {
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinksTitle> Branch Office </FooterLinksTitle>
+                            <FooterLinksTitle> Office </FooterLinksTitle>
                                 <FooterLink to= "/contactus">25/11 Somobai Somity Market (2nd Floor)
 Fishery Ghat, Iqbal Road, Patherghata Chittagong </FooterLink>
                                 <FooterLink to= "/">Mobile: +8801707026633</FooterLink>

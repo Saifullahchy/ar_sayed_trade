@@ -30,7 +30,7 @@ const HeroSection = () => {
                 <HeroH1>WELCOME TO</HeroH1>
                 <HeroH1>A.R SAYED TRADE INTERNATIONAL </HeroH1>
                 <HeroP>
-                We A.R SAYED TRADE INTERNATIONAL are importers, exporters and Wholesale suppliers of frozen, fresh and dried seafood Company since last 15 years, under the supervision of Mr. Omar Sakib. We are Importing from India, China, Vietnam, Indonesia, India, Pakistan, Myanmar, Argentina, Uruguay, Japan, Paraguay, UAE, Oman and Bahrain.
+                We A.R SAYED TRADE INTERNATIONAL are importers, exporters and Wholesale suppliers of frozen, fresh and dried seafood Company since last 5 years, under the supervision of Mr. Omar Sakib. We are Importing from India, China, Vietnam, Indonesia, India, Pakistan, Myanmar, Argentina, Uruguay, Japan, Paraguay, UAE, Oman and Bahrain.
                 We Import and export frozen, fresh and dry seafood to Bangladesh Yemen, Paraguay and distributing within Bangladesh.
                 </HeroP>
                 <HeroBtnWrapper>
