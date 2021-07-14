@@ -1,25 +1,31 @@
 import React from 'react'
-import { TestimonialContainer,
-         TestimonailWrapper,
-         TestimonialH1,
-         TestimonialCard,
-         ImageHead,
-         TestimonialDes,
-         Authoer
+import img from "../../images/testimonial/1.jpeg"
+import { ServicesContainer,
+        	ServicesH1,
+            ServicesWrapper,
+            ServicesIcon,
+            ServicesH2,
+            ServicesP,
+            ServicesCard
 } from './TestimonialElemets'
 
 const Testimonial = () => {
     return (
-        <TestimonialContainer>
-            <TestimonailWrapper>
-                <TestimonialH1>Testimonial</TestimonialH1>
-                <TestimonialCard>
-                    <ImageHead src="" alt=""/>
-                    <TestimonialDes>This is description</TestimonialDes>
-                    <Authoer></Authoer>
-                </TestimonialCard>
-            </TestimonailWrapper>
-        </TestimonialContainer>
+        <ServicesContainer id="services"> 
+            <ServicesH1> Testimonial</ServicesH1>
+                <ServicesWrapper>
+                    <ServicesCard>
+
+                        <ServicesIcon src= {img}/>
+                        
+                        <ServicesP>“As we tread through unchartered economic territory, being able to draw on the wisdom of other CEOs on similar journeys and having CEO Global Network helping with the navigation is extremely helpful.”
+                        </ServicesP>
+                        <ServicesH2>MD.Tarek | <span >CEO</span></ServicesH2>
+                    </ServicesCard>
+                   
+                </ServicesWrapper>
+           
+        </ServicesContainer>
     )
 }
 

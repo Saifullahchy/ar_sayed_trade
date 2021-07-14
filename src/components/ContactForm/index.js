@@ -1,18 +1,19 @@
 import React from 'react'
 import { Container,
         FromWrap,
-        Icon,
+        Image,
         FormContent,
         From,
         FromH1,
         FromInput,
         FromLabel,
         FromButton,
-        BackLink
+        ImageContaienr
 
  } from './ContactFormElements'
  import logo from '../../images/logo.png'
  import emailjs from 'emailjs-com';
+ import img from '../../images/contact.svg'
 
 const ContactForm = () => {
     function sendEmail(e) {
@@ -27,12 +28,14 @@ const ContactForm = () => {
       }
     return (
         <>
-         <Container>
+         <Container id = "contactus">
              <FromWrap>
-                 <Icon to="/"><img src={logo} alt="Logo" height="30px" width="100px"/></Icon>
-                 <FormContent>
+                <FromH1>Contact Us</FromH1>
+                <FormContent className="FromContainer">
+               <ImageContaienr>
+                <Image src ={img}/>
+                </ImageContaienr>
                  <From action="#" onSubmit={sendEmail}>
-                     <FromH1>Contact Us</FromH1>
                      <FromLabel htmlFor='for' name='email'>Email</FromLabel>
                      <FromInput type='email' reauired/>
                      <FromLabel htmlFor='for' name='text'>Mobile No</FromLabel>
@@ -40,7 +43,7 @@ const ContactForm = () => {
                      <FromLabel htmlFor='for' name='message'>Message</FromLabel>
                      <FromInput type='text'  />
                      <FromButton type='submit' value="Send">Submit</FromButton>
-                     <BackLink Link to ='/'>Back To Website</BackLink>
+                     {/* <BackLink Link to ='/'>Back To Website</BackLink> */}
                  </From>
                  </FormContent>
              </FromWrap>
