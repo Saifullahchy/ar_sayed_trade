@@ -17,6 +17,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
     "react-testimonial": "^1.0.0",
+    "react-touch-carousel": "^0.9.4",
     "react-with-gesture": "^4.0.8",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.1.2"

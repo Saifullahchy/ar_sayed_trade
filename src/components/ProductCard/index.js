@@ -9,15 +9,20 @@ import { Container,
         ProductHeading
 } from './ProductCardElements'
 import product_card from './Data'
+
+const cardSize = 300
+const cardPadCount = 2
+
+function CarouselCounter (props){
+    
+
+}
 const ProductList = () => {
 
     console.log(product_card)
     const listItem = product_card.map((item) => 
         <ProductCard className="card" key ={item.id}>
             <CardImage src={item.thumb}/> 
-                {/* <img src={item.thumb} alt="products" height="150px" width="180px"
-                /> */}
-            
             <CardHeader>
                 <ProductH1>{item.product_name}</ProductH1>
                 <ProductP>{item.description}</ProductP>

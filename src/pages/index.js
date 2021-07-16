@@ -9,6 +9,7 @@ import Services from '../components/Services'
 import Footer from '../components/Footer'
 import Testimonial from '../components/Testimonial'
 import ContactForm from '../components/ContactForm'
+import ProductCarousel from '../components/ProductCarousel'
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
             <InfoSection  {...homeObjOne}/>
             <InfoSection  {...homeObjTwo}/>
             <Services/>
-            
+            <ProductCarousel/>
             <Testimonial/>
             <ContactForm/>
             <Footer/>

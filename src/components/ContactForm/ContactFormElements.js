@@ -9,33 +9,36 @@ export const Container = styled.div`
 
 export const FromWrap = styled.div`
 
-    display: grid;
-    z-index: 1;
     width: 100%;
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
-    justify-content: center;
     `
 
 
 
 export const FormContent = styled.div`
-    display: flex;
+    display: grid;
     justify-content: center;
     padding: 20px;
+    grid-template-columns: 1fr 1fr;
+
+    @media screen and (max-width:768px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 `
 export const ImageContaienr = styled.div `
     max-width: 500px;
     margin: 20px auto;
-    margin-right: 50px;
-    align-items: center;
+    align-items:center ;
 `
     
 export const Image = styled.img`
     width:100%;
-    margin: 0 0 10px 0;
+    margin: 10px;
     padding-right: 0;
     overflow: hidden;
 `
