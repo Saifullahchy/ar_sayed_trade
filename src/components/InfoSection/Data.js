@@ -7,7 +7,7 @@ export const homeObjOne = {
     lightText: true,
     lightTextDesc: false,
     topLine: 'Premium Products',
-    headline: 'EXPORT WITH PRIDE',
+    headline: 'IMPORT WITH PRIDE',
     description:'The attractiveness of the export-policies of the government, encouraged the group to invest very heavily in processing facilities, particularly for shrimps, cuttlefish and seafood, which are its main businesses. The closeness to the coast and vast seafood raw material provided the potential to purchase fresh and chilled shrimps & seafood from the independent fishermen who fish with small fibre-glass boats within few hours from fishing grounds in the clean parasite-free Persian-Gulf waters. This has allowed A.R Sayed Trade International to focus and concentrate on shellfish & seafood processing, and the continuing program of factory capital investments.',
     buttonLable : 'OUR SERVICES',
     imgStart: false,

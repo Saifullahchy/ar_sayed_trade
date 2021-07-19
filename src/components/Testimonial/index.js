@@ -20,7 +20,7 @@ const Testimonial = () => {
                         
                         <ServicesP>“As we tread through unchartered economic territory, being able to draw on the wisdom of other CEOs on similar journeys and having CEO Global Network helping with the navigation is extremely helpful.”
                         </ServicesP>
-                        <ServicesH2>MD.Tarek | <span >CEO</span></ServicesH2>
+                        <ServicesH2>Sayed Ullah Hasan Tareq | <span >CEO</span></ServicesH2>
                     </ServicesCard>
                    
                 </ServicesWrapper>

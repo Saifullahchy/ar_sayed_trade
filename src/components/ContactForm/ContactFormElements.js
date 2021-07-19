@@ -80,10 +80,9 @@ export const FromInput = styled.input`
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
-`;
 
-export const FromButton = styled.div`
-    background: #28ABB9;
+    &.button{
+        background: #28ABB9;
     padding: 16px 0;
     border: none;
     border-radius:4px;
@@ -91,6 +90,13 @@ export const FromButton = styled.div`
     color:#fff;
     font-size: 20px;
     cursor: pointer;
+    }
+`;
+
+export const FromButton = styled.div`
+   
+    
+    
 `
 export const BackLink = styled(LinkR)`
     text-align: center;
@@ -98,3 +104,9 @@ export const BackLink = styled(LinkR)`
     color:#fff;
     font-size: 14px;
 `
+export const FromInputText = styled.textarea`
+    padding: 16px 16px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 4px;
+`;

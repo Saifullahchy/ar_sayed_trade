@@ -27,7 +27,7 @@ const Home = () => {
             <InfoSection  {...homeObjOne}/>
             <InfoSection  {...homeObjTwo}/>
             <Services/>
-            <ProductCarousel/>
+           
             <Testimonial/>
             <ContactForm/>
             <Footer/>

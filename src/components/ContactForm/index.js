@@ -8,7 +8,8 @@ import { Container,
         FromInput,
         FromLabel,
         FromButton,
-        ImageContaienr
+        ImageContaienr,
+        FromInputText
 
  } from './ContactFormElements'
  import logo from '../../images/logo.png'
@@ -16,17 +17,27 @@ import { Container,
  import img from '../../images/contact.svg'
 
 const ContactForm = () => {
+  
+const  cancelFrom = () => {
+      document.getElementById("contact_form").reset();
+      console.log("on click worked")
+  }
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('service_jyyam8t', 'template_s51muwt', e.target, 'user_MMinMhYE7GW1pJWV5zQS8')
+        emailjs.sendForm('service_jyyam8t', 'template_1xt0p9n', e.target, 'user_MMinMhYE7GW1pJWV5zQS8')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
       }
-    return (
+
+      
+  
+      return (
+        
+
         <>
          <Container id = "contactus">
              <FromWrap>
@@ -35,14 +46,16 @@ const ContactForm = () => {
                <ImageContaienr>
                 <Image src ={img}/>
                 </ImageContaienr>
-                 <From action="#" onSubmit={sendEmail}>
-                     <FromLabel htmlFor='for' name='email'>Email</FromLabel>
-                     <FromInput type='email' reauired/>
-                     <FromLabel htmlFor='for' name='text'>Mobile No</FromLabel>
-                     <FromInput type='text' reauired/>
-                     <FromLabel htmlFor='for' name='message'>Message</FromLabel>
-                     <FromInput type='text'  />
-                     <FromButton type='submit' value="Send">Submit</FromButton>
+                 <From id= "contact_form" onSubmit={sendEmail}>
+                 <FromLabel htmlFor='for' >Your Name</FromLabel>
+                     <FromInput type='text' reauired name="user_name"/>
+                     <FromLabel htmlFor='for'>Email</FromLabel>
+                     <FromInput type='email' reauired name="user_email"/>
+                     <FromLabel htmlFor='for'>Mobile Number</FromLabel>
+                     <FromInput type='text' name="user_contactNo" reauired/>
+                     <FromLabel htmlFor='for' >Message</FromLabel>
+                     <FromInputText type='text' name='user_message' />
+                     <FromInput className="button" type='submit' value="Send" onclick={cancelFrom} />
                      {/* <BackLink Link to ='/'>Back To Website</BackLink> */}
                  </From>
                  </FormContent>
