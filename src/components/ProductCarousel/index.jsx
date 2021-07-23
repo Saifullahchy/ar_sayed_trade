@@ -6,7 +6,6 @@ import Slider from "react-slick";
 import product_card from '../ProductCard/Data';
 import './indexElements.css'
 import { Button } from '../ButtonElements';
-import { Link as LinkR} from 'react-router-dom';
 
 
 export default class ProductCarousel extends Component {
@@ -67,7 +66,7 @@ export default class ProductCarousel extends Component {
           </Slider>
           </div>
           <div className="BtnWrapper">
-          <Button Link ="products">Load More</Button>
+          <Button onClick={event =>  window.location.href='/products'}>Load More</Button>
           </div>
         </div>
     );

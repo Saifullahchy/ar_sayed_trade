@@ -10,13 +10,6 @@ import { Container,
 } from './ProductCardElements'
 import product_card from './Data'
 
-const cardSize = 300
-const cardPadCount = 2
-
-function CarouselCounter (props){
-    
-
-}
 const ProductList = () => {
 
     console.log(product_card)
