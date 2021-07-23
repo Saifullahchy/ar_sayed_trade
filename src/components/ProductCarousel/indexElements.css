@@ -1,0 +1,81 @@
+
+.ProdductHeading{
+    font-size: 2.5rem;
+    text-transform:uppercase;
+    padding-top: 30px;
+   color: #fff;
+   margin-bottom: 50px;
+    text-align: center;
+   @media screen and (max-width: 480px){
+       font-size: 2rem;
+       text-align:center;
+
+   }
+}
+.ContainerMain{
+    background:#077e8b ;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Container {
+
+     width: 80%;
+    height: 100%;
+    margin: 5px auto;
+    padding: 5px 0 0 ;
+    box-sizing: border-box;
+    flex-wrap: wrap;  
+}
+.ProductCard{
+    background:#FFf ;
+    height: 450px;
+    max-width: 350px;
+    margin: 30px auto;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 10px 5px rgba(0,0,0,0.2);
+     transition: all 0.2s ease-in-out;
+
+    @media screen and (max-width: 480px){
+         padding: 10px auto;
+         margin: 30px auto;
+
+    }
+     
+}
+.ProductCard:hover{
+    transform: scale(1.02);
+    transition: all 0.2 ease-in-out;
+    cursor: pointer;
+}
+
+.CardImage{
+    height: 260px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.CardHeader{
+    border-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ProductTitle{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.ProductP{
+    font-size:1rem;
+    text-align: center;
+    margin-bottom: 24px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.BtnWrapper{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
