@@ -74,13 +74,14 @@ Fishery Ghat, Iqbal Road, Patherghata Chittagong </FooterLink>
                                 <SocialIconLink href="/" target = "_balnk" aria-label="Instagram">
                                 <FaInstagram />
                                 </SocialIconLink> 
-                                <SocialIconLink href="/" target = "_balnk" aria-label="Youtube">
+                                <SocialIconLink href="https://www.facebook.com/westfordbd/" target = "_balnk" aria-label="Youtube">
                                 <FaYoutube />
                                 </SocialIconLink> 
                                 <SocialIconLink href="/" target = "_balnk" aria-label="Twitter">
                                 <FaTwitter />
                                 </SocialIconLink> 
-                                <SocialIconLink href="/" target = "_balnk" aria-label="Linkdin">
+                                <SocialIconLink href="https://www.linkedin.com/company/79700557"  aria-label="Linkdin">
+                                    
                                 <FaLinkedin />
                                 </SocialIconLink> 
                         </SocialIcon>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 export const ContainerMain = styled.div `
-    /* display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -12,20 +12,20 @@ export const ContainerMain = styled.div `
     @media screen and (max-width: 480px){
         flex-direction: column;
         align-items:center;
-    } */
+    }
 `
 
 export const Container = styled.div`
 
-    /* display: flex;
+     display: flex;
     justify-content:start;
-    position: relative; */
-    /* width: 70%;
+    position: relative; 
+     width: 70%;
     height: 100%;
     margin: 20px auto;
     padding: 50px 0 0 ;
     box-sizing: border-box;
-    flex-wrap: wrap; */
+    flex-wrap: wrap; 
     
 
 `
