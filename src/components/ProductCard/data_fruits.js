@@ -9,14 +9,14 @@ const product_card = [
     id: 1,
     product_name: "Royal Gala Fresh Apples",
     description:
-      "Actual product packaging and materials may contain more and different information than what is shown on our app or website. We recommend that you do not rely solely on the information presented here and that you always read labels, warnings, and directions before using or consuming a product.",
+      "Actual product packaging and materials may contain more and different information than what is shown on our app or website.",
     thumb: img1,
   },
   {
     id: 2,
     product_name: "Valencia Oranges",
     description:
-      "The Valencia orange is a sweet orange cultivar named after the famed oranges in València, Spain. It was first hybridized by pioneer American agronomist and land developer William Wolfskill in the mid-19th century on his farm in Santa Ana, southern California, United States, North America.",
+      "The Valencia orange is a sweet orange cultivar named after the famed oranges in València, Spain.",
     thumb: img2,
   },
   {
