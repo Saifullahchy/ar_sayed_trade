@@ -23,7 +23,7 @@ const product_card = [
     id: 3,
     product_name: "Egypt Valencia Orange",
     description:
-      "This Valencia Orange is a new arrival from Egypt. It is a large variety of orange with a pebbled and smooth surface with a thick fragrant peel that loosely clings to its segmented seeded flesh. When ripe, its flesh is remarkably juicy, sweet, and tender. Though Valencia oranges' primary usage is for juicing, they are also used for fresh eating as well",
+      "This Valencia Orange is a new arrival from Egypt. It is a large variety of orange with a pebbled and smooth surface with a thick fragrant peel that loosely clings to its segmented seeded flesh. When ripe, its flesh is remarkably juicy, sweet, and tender. ",
     thumb: img3,
   },
   {
