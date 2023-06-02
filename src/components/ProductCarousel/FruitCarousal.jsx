@@ -1,9 +1,8 @@
 import react, { Component } from "react";
-// import { Link as LinkR } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import product_card from "../ProductCard/Data";
+import product_card from "../ProductCard/data_fruits";
 import "./indexElements.css";
 import { Button } from "../ButtonElements";
 
@@ -48,9 +47,7 @@ export default class ProductCarousel extends Component {
 
     return (
       <div className="ContainerMain" id="ProductsSection">
-        <h1 className="ProdductHeading"> Our Products</h1>
-
-        <h1 className="ProdductHeading"> Fishes</h1>
+        <h1 className="ProdductHeading"> Fresh Fruit</h1>
         <div className="Container">
           <Slider {...settings}>
             {product_card.map((item) => (
@@ -65,9 +62,9 @@ export default class ProductCarousel extends Component {
           </Slider>
         </div>
         <div className="BtnWrapper">
-          {/* <Button onClick={(event) => (window.location.href = "/products")}>
+          <Button onClick={(event) => (window.location.href = "/products")}>
             Load More
-          </Button> */}
+          </Button>
         </div>
       </div>
     );
