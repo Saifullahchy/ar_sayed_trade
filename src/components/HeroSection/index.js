@@ -35,8 +35,8 @@ const HeroSection = () => {
           Tareq. We are Importing from India, China, Vietnam, Indonesia, India,
           Pakistan, Myanmar, Argentina, Uruguay, Japan, Paraguay, UAE, Oman,
           USA, Egypt and Bahrain. We Import and export frozen, fresh and dry
-          seafood and fruits to Bangladesh from, Egypt, USA, Yemen, Paraguay and distributing
-          within Bangladesh.
+          seafood and fruits to Bangladesh from, Egypt, USA, Yemen, Paraguay and
+          distributing within Bangladesh.
         </HeroP>
         <HeroBtnWrapper>
           <Button

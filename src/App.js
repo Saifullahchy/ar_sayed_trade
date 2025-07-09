@@ -1,14 +1,15 @@
-import './App.css'; 
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Home from './pages';
-import productPage from './pages/product';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages";
+import ProductPage from "./pages/product";
+
 function App() {
   return (
-    <Router >
-      <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/products" component={productPage} exact />
-      </Switch>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<ProductPage />} />
+      </Routes>
     </Router>
   );
 }
