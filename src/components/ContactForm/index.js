@@ -8,11 +8,9 @@ import {
   FromH1,
   FromInput,
   FromLabel,
-  FromButton,
   ImageContaienr,
   FromInputText,
 } from "./ContactFormElements";
-import logo from "../../images/logo.png";
 import emailjs from "emailjs-com";
 import img from "../../images/contact.svg";
 

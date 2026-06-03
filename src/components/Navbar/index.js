@@ -9,8 +9,7 @@ import { Nav,
     NavItem,
     NavLinks,
     NavBtn,
-    NavBtnLink,
-    NavLinkR
+    NavBtnLink
  } from './NavbarElement';
 import logo from '../../images/logo.png'
 const Navbar = ({toggle}) => {
@@ -98,7 +97,6 @@ const Navbar = ({toggle}) => {
         </>
     );
 
-    console.log(NavLinks)
 };
 
 export default Navbar;

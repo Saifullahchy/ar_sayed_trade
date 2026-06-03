@@ -122,6 +122,7 @@ const Footer = () => {
           <a
             href="https://dellly.com/"
             target="_blank"
+            rel="noreferrer"
             style={{ color: "red", textDecoration: "none" }}
           >
             dellly.com

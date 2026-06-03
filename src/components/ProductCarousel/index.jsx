@@ -1,11 +1,10 @@
-import react, { Component } from "react";
+import { Component } from "react";
 // import { Link as LinkR } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import product_card from "../ProductCard/Data";
 import "./indexElements.css";
-import { Button } from "../ButtonElements";
 
 export default class ProductCarousel extends Component {
   render() {
