@@ -57,7 +57,7 @@ const Footer = () => {
                 Road, Patherghata Chittagong{" "}
               </FooterLink>
               <FooterLink to="/">Mobile: +8801707026633</FooterLink>
-              <FooterLink to="/">Whatsapp: +971521684855</FooterLink>
+              <FooterLink to="/">Whatsapp: +8801760606011</FooterLink>
               <FooterLink to="/contactus">
                 Email: arsayedtrade@gmail.com
               </FooterLink>

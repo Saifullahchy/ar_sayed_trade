@@ -19,48 +19,90 @@ export const ServicesContainer = styled.div`
 `
 
 export const ServicesWrapper = styled.div`
+    width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr ;
-    align-items: center;
-    grid-gap:16px;
     padding: 0 50px;
 
-    @media screen and (max-width: 1000px){
-        grid-template-columns: 1fr ;
+    .slick-slider,
+    .slick-list,
+    .slick-track {
+        height: 100%;
     }
+
+    .slick-slide > div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slick-dots {
+        bottom: -35px;
+    }
+
+    .slick-dots li button:before {
+        color: #28ABB9;
+        font-size: 10px;
+        opacity: 0.4;
+    }
+
+    .slick-dots li.slick-active button:before {
+        color: #28ABB9;
+        opacity: 1;
+    }
+
     @media screen and (max-width: 768px){
-        grid-template-columns: 1fr;
         padding: 0 20px;
     }
 `
 
 export const ServicesCard = styled.div`
+    width: 100%;
     background: #28ABB9;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    gap: 16px;
     border-radius: 10px;
-    max-height: 700px;
+    min-height: 430px;
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+    text-align: center;
+    box-sizing: border-box;
 
     &:hover{
         transform: scale(1.02);
         transition: all 0.2 ease-in-out;
         cursor: pointer;
     }
+
+    @media screen and (max-width: 480px){
+        min-height: 500px;
+        padding: 24px 18px;
+    }
 `
 
 export const ServicesIcon = styled.img`
     height: 160px;
     width: 160px;
-    margin-bottom: 10px;
+    flex: 0 0 160px;
+    align-self: center;
     border-radius: 50%;
-    padding: 3px;
+    margin: auto;
+    margin-bottom: 16px;
+    padding: 2px;
     background:#fff ;
+    object-fit: cover;
+    object-position: center;
+`
+
+export const ServicesContent = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 `
 
 export const ServicesH1 = styled.h1`
@@ -76,8 +118,7 @@ export const ServicesH1 = styled.h1`
 
 export const ServicesH2 = styled.p`
     font-size: 0.7rem;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin: 20px 0 10px;
     text-transform: initial;
     color: #fff;
     text-transform: uppercase;
@@ -89,5 +130,11 @@ export const ServicesP = styled.p`
     color: #fff;
       letter-spacing: 1px;
       font-family: 'Raleway', sans-serif;
+      max-width: 650px;
+      margin: 0;
+
+    @media screen and (max-width: 480px){
+        font-size: 1.1rem;
+    }
     
 `
